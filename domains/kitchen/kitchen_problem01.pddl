@@ -1,0 +1,10 @@
+(define (problem kitchen-01)
+  (:domain kitchen)
+  (:objects)
+  (:init
+    (has-bread) (has-cereal) (has-milk) (has-eggs)
+    (has-coffee) (has-lettuce) (has-tomato)
+    (has-pasta) (has-sauce) (has-soup) (has-cheese)
+  )
+  (:goal (breakfast-done))
+)

@@ -1,0 +1,64 @@
+# Block Words: 20 candidate goal orderings (words to spell)
+# Each line is a goal: atoms separated by commas
+# These represent 20 different orderings of 6 blocks into a tower
+# Format: (on x y) means x is directly on y; (ontable x) means x is on table
+
+# Word 1: A-B-C-D-E-F (top to bottom)
+(on a b),(on b c),(on c d),(on d e),(on e f),(ontable f)
+
+# Word 2: B-A-C-D-E-F
+(on b a),(on a c),(on c d),(on d e),(on e f),(ontable f)
+
+# Word 3: A-B-D-C-E-F
+(on a b),(on b d),(on d c),(on c e),(on e f),(ontable f)
+
+# Word 4: C-B-A-D-E-F
+(on c b),(on b a),(on a d),(on d e),(on e f),(ontable f)
+
+# Word 5: A-C-B-D-E-F
+(on a c),(on c b),(on b d),(on d e),(on e f),(ontable f)
+
+# Word 6: D-A-B-C-E-F
+(on d a),(on a b),(on b c),(on c e),(on e f),(ontable f)
+
+# Word 7: A-B-C-E-D-F
+(on a b),(on b c),(on c e),(on e d),(on d f),(ontable f)
+
+# Word 8: F-E-D-C-B-A
+(on f e),(on e d),(on d c),(on c b),(on b a),(ontable a)
+
+# Word 9: A-D-B-C-E-F
+(on a d),(on d b),(on b c),(on c e),(on e f),(ontable f)
+
+# Word 10: B-C-A-D-E-F
+(on b c),(on c a),(on a d),(on d e),(on e f),(ontable f)
+
+# Word 11: A-B-E-C-D-F
+(on a b),(on b e),(on e c),(on c d),(on d f),(ontable f)
+
+# Word 12: E-D-C-B-A-F
+(on e d),(on d c),(on c b),(on b a),(on a f),(ontable f)
+
+# Word 13: A-F-B-C-D-E
+(on a f),(on f b),(on b c),(on c d),(on d e),(ontable e)
+
+# Word 14: B-D-A-C-E-F
+(on b d),(on d a),(on a c),(on c e),(on e f),(ontable f)
+
+# Word 15: C-A-B-D-E-F
+(on c a),(on a b),(on b d),(on d e),(on e f),(ontable f)
+
+# Word 16: A-B-C-D-F-E
+(on a b),(on b c),(on c d),(on d f),(on f e),(ontable e)
+
+# Word 17: D-C-B-A-E-F
+(on d c),(on c b),(on b a),(on a e),(on e f),(ontable f)
+
+# Word 18: A-E-B-C-D-F
+(on a e),(on e b),(on b c),(on c d),(on d f),(ontable f)
+
+# Word 19: B-A-D-C-E-F
+(on b a),(on a d),(on d c),(on c e),(on e f),(ontable f)
+
+# Word 20: F-A-B-C-D-E
+(on f a),(on a b),(on b c),(on c d),(on d e),(ontable e)

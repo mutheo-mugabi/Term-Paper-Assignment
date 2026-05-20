@@ -1,0 +1,3 @@
+# Campus: 2 candidate goals (per paper |G|=2)
+(activity-done attending-class)
+(activity-done going-to-library)

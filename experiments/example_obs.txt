@@ -1,0 +1,4 @@
+# Example observation file for Block Words domain
+# Agent picks up block 'a' and stacks it on 'b'
+pick-up a
+stack a b

@@ -1,0 +1,24 @@
+# IPC-Grid: candidate goals (key placement goals)
+# Each line: one goal, atoms comma-separated
+# |G| ranges from 5-10 per the paper; we use 7 goals (avg 7.5)
+
+# Goal 1: k1 at l33, k2 at l13
+(at-key k1 l33),(at-key k2 l13)
+
+# Goal 2: k1 at l11, k2 at l33
+(at-key k1 l11),(at-key k2 l33)
+
+# Goal 3: k1 at l13, k2 at l31
+(at-key k1 l13),(at-key k2 l31)
+
+# Goal 4: k1 at l31, k2 at l13
+(at-key k1 l31),(at-key k2 l13)
+
+# Goal 5: k1 at l33, k2 at l11
+(at-key k1 l33),(at-key k2 l11)
+
+# Goal 6: k1 at l23, k2 at l32
+(at-key k1 l23),(at-key k2 l32)
+
+# Goal 7: k1 at l32, k2 at l23
+(at-key k1 l32),(at-key k2 l23)

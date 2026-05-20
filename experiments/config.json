@@ -1,0 +1,64 @@
+{
+  "domains": {
+    "blocks": {
+      "domain_file": "domains/blocks/domain.pddl",
+      "use_suboptimal": false,
+      "problems": [
+        {
+          "problem_file": "domains/blocks/problem01.pddl",
+          "goals_file": "domains/blocks/goals.txt"
+        }
+      ]
+    },
+    "ipc_grid": {
+      "domain_file": "domains/ipc_grid/domain.pddl",
+      "use_suboptimal": false,
+      "problems": [
+        {
+          "problem_file": "domains/ipc_grid/problem01.pddl",
+          "goals_file": "domains/ipc_grid/goals.txt"
+        }
+      ]
+    },
+    "logistics": {
+      "domain_file": "domains/logistics/domain.pddl",
+      "use_suboptimal": false,
+      "problems": [
+        {
+          "problem_file": "domains/logistics/problem01.pddl",
+          "goals_file": "domains/logistics/goals.txt"
+        }
+      ]
+    },
+    "intrusion": {
+      "domain_file": "domains/intrusion/domain.pddl",
+      "use_suboptimal": false,
+      "problems": [
+        {
+          "problem_file": "domains/intrusion/problem01.pddl",
+          "goals_file": "domains/intrusion/goals.txt"
+        }
+      ]
+    },
+    "campus": {
+      "domain_file": "domains/campus/domain.pddl",
+      "use_suboptimal": true,
+      "problems": [
+        {
+          "problem_file": "domains/campus/problem01.pddl",
+          "goals_file": "domains/campus/goals.txt"
+        }
+      ]
+    },
+    "kitchen": {
+      "domain_file": "domains/kitchen/domain.pddl",
+      "use_suboptimal": true,
+      "problems": [
+        {
+          "problem_file": "domains/kitchen/problem01.pddl",
+          "goals_file": "domains/kitchen/goals.txt"
+        }
+      ]
+    }
+  }
+}

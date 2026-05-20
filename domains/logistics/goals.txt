@@ -1,0 +1,32 @@
+# Logistics: 10 candidate goals
+# Each goal specifies destination for all 6 packages
+
+# Goal 1: swap all packages between cities
+(at-package p1 loc-b1),(at-package p2 loc-b2),(at-package p3 loc-b1),(at-package p4 loc-a1),(at-package p5 loc-a2),(at-package p6 loc-a1)
+
+# Goal 2: all packages to city-b
+(at-package p1 loc-b1),(at-package p2 loc-b1),(at-package p3 loc-b2),(at-package p4 loc-b1),(at-package p5 loc-b2),(at-package p6 loc-b1)
+
+# Goal 3: all packages to city-a
+(at-package p1 loc-a1),(at-package p2 loc-a2),(at-package p3 loc-a1),(at-package p4 loc-a1),(at-package p5 loc-a2),(at-package p6 loc-a2)
+
+# Goal 4: p1,p2,p3 to b; p4,p5,p6 stay in a
+(at-package p1 loc-b2),(at-package p2 loc-b1),(at-package p3 loc-b2),(at-package p4 loc-a1),(at-package p5 loc-a1),(at-package p6 loc-a2)
+
+# Goal 5: p4,p5,p6 to a; p1,p2,p3 stay in b-side
+(at-package p1 loc-b1),(at-package p2 loc-b2),(at-package p3 loc-b1),(at-package p4 loc-a2),(at-package p5 loc-a1),(at-package p6 loc-a2)
+
+# Goal 6: p1,p3,p5 cross; p2,p4,p6 stay
+(at-package p1 loc-b1),(at-package p2 loc-a2),(at-package p3 loc-b2),(at-package p4 loc-b1),(at-package p5 loc-a1),(at-package p6 loc-b2)
+
+# Goal 7: p2,p4,p6 cross; p1,p3,p5 stay
+(at-package p1 loc-a1),(at-package p2 loc-b1),(at-package p3 loc-a2),(at-package p4 loc-a1),(at-package p5 loc-b2),(at-package p6 loc-a2)
+
+# Goal 8: all at airports
+(at-package p1 airport-a),(at-package p2 airport-b),(at-package p3 airport-a),(at-package p4 airport-b),(at-package p5 airport-a),(at-package p6 airport-b)
+
+# Goal 9: reverse positions within cities
+(at-package p1 loc-a2),(at-package p2 loc-a2),(at-package p3 loc-a1),(at-package p4 loc-b2),(at-package p5 loc-b2),(at-package p6 loc-b1)
+
+# Goal 10: p1,p2 to b; rest to a
+(at-package p1 loc-b1),(at-package p2 loc-b2),(at-package p3 loc-a1),(at-package p4 loc-a1),(at-package p5 loc-a2),(at-package p6 loc-a2)

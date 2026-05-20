@@ -1,0 +1,4 @@
+# Core dependencies for the PR recognition system
+pytest>=7.0
+matplotlib>=3.5
+numpy>=1.22

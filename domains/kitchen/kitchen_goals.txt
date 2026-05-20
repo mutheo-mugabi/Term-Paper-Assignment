@@ -1,0 +1,4 @@
+# Kitchen: 3 candidate goals
+(breakfast-done)
+(lunch-done)
+(dinner-done)

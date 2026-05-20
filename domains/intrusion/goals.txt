@@ -1,0 +1,24 @@
+# Intrusion Detection: 15 candidate goals
+# All conjunctive combinations of up to 3 attacks on 3 servers
+# Per paper: |G|=15
+
+# Single-server goals (3)
+(access-gained s1)
+(vandalized s1)
+(info-stolen s1)
+
+# Two-server combinations (9)
+(access-gained s1),(vandalized s2)
+(access-gained s1),(info-stolen s2)
+(vandalized s1),(access-gained s2)
+(vandalized s1),(info-stolen s2)
+(info-stolen s1),(access-gained s2)
+(info-stolen s1),(vandalized s2)
+(access-gained s2),(info-stolen s3)
+(vandalized s2),(access-gained s3)
+(info-stolen s2),(vandalized s3)
+
+# Three-server combination (3)
+(access-gained s1),(vandalized s2),(info-stolen s3)
+(vandalized s1),(info-stolen s2),(access-gained s3)
+(info-stolen s1),(access-gained s2),(vandalized s3)
