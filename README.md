@@ -7,7 +7,7 @@ Reproducibility study of:
 
 We reimplement the probabilistic goal recognition system from scratch in Python,
 evaluate it across all six planning domains from the paper (Block Words, IPC-Grid,
-Logistics, Intrusion Detection, Campus, Kitchen), and investigate the sensitivity
+Logistics, Intrusion Detection, Campus and Kitchen), and investigate the sensitivity
 of the unspecified β parameter as a group extension.
 
 ---
