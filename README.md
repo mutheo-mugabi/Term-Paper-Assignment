@@ -119,7 +119,7 @@ python3 run_experiments.py \
     --modes greedy
 ```
 
-**Optimal mode** (~4 hours):
+**Optimal mode** (~15 mins - 1 hour):
 ```bash
 python3 run_experiments.py \
     --fd-path fast-downward/fast-downward.py \
