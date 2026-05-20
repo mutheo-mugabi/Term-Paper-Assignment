@@ -43,7 +43,7 @@ python3 --version
 
 ### Step 1 — Clone the repository
 ```bash
-git clone https://github.com/YOURUSERNAME/pr-recognition.git
+git clone https://github.com/YOURUSERNAME/Term-Paper-Assignment.git
 cd pr-recognition
 ```
 
