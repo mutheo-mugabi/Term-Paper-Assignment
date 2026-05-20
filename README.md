@@ -202,7 +202,7 @@ Available domain names: `blocks`, `ipc_grid`, `logistics`, `intrusion`, `campus`
 ## Repository Structure
 
 ```
-pr-recognition/
+Term-Paper-Assignment/
 │
 ├── README.md                     This file
 ├── requirements.txt              Python dependencies
